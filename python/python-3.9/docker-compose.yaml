@@ -1,0 +1,12 @@
+services:
+  python-3.9:
+    build: .
+    tty: true
+    # command: python3 -m flask run
+    # ports:
+    #   - "5000:5000"
+    # volumes:
+    #   - .:/app
+    # environment:
+    #   - FLASK_ENV=development
+    #   - FLASK_APP=app.py
